@@ -1,0 +1,33 @@
+{
+  "name": "taxisapp",
+  "version": "1.0.0",
+  "description": "proyecto de evaluacion back",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thommgriffiths/taxis.git"
+  },
+  "author": "Thomas Peter Griffiths",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thommgriffiths/taxis/issues"
+  },
+  "homepage": "https://github.com/thommgriffiths/taxis#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.2.1",
+    "typeorm": "^0.3.20"
+  }
+}
